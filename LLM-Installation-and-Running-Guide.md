@@ -12,7 +12,7 @@ Before jumping into any of the LLMs, ensure that the Python extension for Visual
 
 <p align=center>
   <img src="images/Extension-button.png" width=350 title="hover text">
-  <img src="images/Python-Extension.png" width=550 alt="accessibility text">
+  <img src="images/Python-Extension.png" width=500 alt="accessibility text">
 </p>
 
 ## BioGPT
