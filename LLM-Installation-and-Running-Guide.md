@@ -4,7 +4,7 @@ For all of the LLMs below, Visual Studio Code was the code editor of choice. We 
 
 Before jumping into any of the LLMs, make that you have installed the Python extension for Visual Studio Code:
 <p align="center">
-  <img src="images/Extensions-button.png" width=350 title="hover text">
+  <img src="images/Extension-button.png" width=350 title="hover text">
   <img src="images/Python-Extension.png" width=350 alt="accessibility text">
 </p>
 
