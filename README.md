@@ -35,10 +35,17 @@ Record a short video (1:40 - 2 minutes maximum) or gif or a simple screen record
 A minimal example to showcase your work
 
 ```python
-from amazing import amazingexample
-imgs = amazingexample.demo()
-for img in imgs:
-    view(img)
+from transformers import pipeline, set_seed
+from transformers import BioGptTokenizer, BioGptForCausalLM
+model = BioGptForCausalLM.from_pretrained("microsoft/biogpt")
+tokenizer = BioGptTokenizer.from_pretrained("microsoft/biogpt")
+generator = pipeline('text-generation', model=model, tokenizer=tokenizer)
+set_seed(42)
+print(" ")
+print("Output:")
+print("------------------")
+print(generator("COVID-19 is", max_length=100, num_return_sequences=1, do_sample=True))
+print("------------------")
 ```
 
 ### What to find where
@@ -47,8 +54,8 @@ Explain briefly what files are found where
 
 ```bash
 repository
-├── src                          ## source code of the package itself
-├── scripts                      ## scripts, if needed
+├── biogpt.py                    ## code from minimal example above: to run text generation with a prompt using BioGPT
+├── .py                          ## scripts, if needed
 ├── docs                         ## If needed, documentation   
 ├── README.md                    ## You are here
 ├── requirements.yml             ## If you use conda
@@ -62,8 +69,8 @@ Provide sufficient instructions to reproduce and install your project.
 Provide _exact_ versions, test on CSIL or reference workstations.
 
 ```bash
-git clone $THISREPO
-cd $THISREPO
+git clone $GROUP-22
+cd $GROUP-22
 conda env create -f requirements.yml
 conda activate amazing
 ```
