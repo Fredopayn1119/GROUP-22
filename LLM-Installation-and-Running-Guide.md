@@ -1,7 +1,11 @@
-# Instructions on reproducing LLMs 
-## LLM1
-instructions
+# Instructions on reproducing LLMs
+
+## BioGPT
+###Installation
+
 <code snippet>
+
+###Running
 
 ## LLM2
 ...
