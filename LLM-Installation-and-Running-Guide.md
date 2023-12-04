@@ -10,9 +10,10 @@ Now, for or all of the LLMs below, Visual Studio Code was the code editor of cho
 
 Before jumping into any of the LLMs, ensure that the Python extension for Visual Studio Code has been installed:
 
-<img src="images/Extension-button.png" width=350 title="hover text">
-<img src="images/Python-Extension.png" width=350 alt="accessibility text">
-
+<p align=center>
+  <img src="images/Extension-button.png" width=350 title="hover text">
+  <img src="images/Python-Extension.png" width=350 alt="accessibility text">
+</p>
 
 ## BioGPT
 <bold>Installation</bold>
