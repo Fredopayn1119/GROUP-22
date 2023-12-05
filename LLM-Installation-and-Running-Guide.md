@@ -2,6 +2,11 @@
 
 ## Table of Contents
 
+### 1. Initial Setup
+### 2. BioGPT
+### 3. GPTNeo
+
+
 ## Initial Setup
 
 For all of the LLMs below, Visual Studio Code was the code editor of choice. It is strongly recommended that this be the code editor used, as all the instructions are written assuming that this is code editor the reader will be using to follow along.
