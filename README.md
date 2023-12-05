@@ -6,13 +6,9 @@ Add a 1-2 line summary of your project here.
 
 ## Important Links
 
-| [Timesheet](https://google.com) | [Slack channel](https://google.com) | [Project report](https://www.overleaf.com/project/650ca3406716f07f3579dc3e) |
+| [Timesheet](https://1sfu-my.sharepoint.com/:x:/g/personal/kabhishe_sfu_ca/EZ18ilpzUUFLubG8GtTbF6EB2QN-h6d7j62JO3VCog0bbA?e=TdwjVf) | [Slack channel](https://app.slack.com/client/T05JYJAF22G/C05TGR37XPW/docs/Qp:F05TT3JHM17) | [Project report](https://www.overleaf.com/project/650ca3406716f07f3579dc3e) |
 |-----------|---------------|-------------------------|
 
-
-- Timesheet: Link your timesheet (pinned in your project's Slack channel) where you track per student the time and tasks completed/participated for this project/
-- Slack channel: Link your private Slack project channel.
-- Project report: Link your Overleaf project report document.
 
 
 ## Video/demo/GIF
@@ -50,14 +46,14 @@ print("------------------")
 
 ### What to find where
 
-Explain briefly what files are found where
 
 ```bash
 repository
-├── biogpt.py                    ## code from minimal example above: to run text generation with a prompt using BioGPT
+├── llm-files                    ## code from minimal example above: to run text generation with a prompt using BioGPT
 ├── .py                          ## scripts, if needed
 ├── docs                         ## If needed, documentation   
 ├── README.md                    ## You are here
+├── LLM-Guide.md                 ## md file containing installation and running instructions for each LLM
 ├── requirements.yml             ## If you use conda
 ```
 
