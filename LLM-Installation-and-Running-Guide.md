@@ -2,9 +2,12 @@
 
 ## Table of Contents
 
-### 1. Initial Setup
-### 2. BioGPT
-### 3. GPTNeo
+1. [Initial Setup](#initial setup)
+
+2. [BioGPT](#biogpt)
+
+3. [GPTNeo](#gptneo)
+
 
 
 ## Initial Setup
