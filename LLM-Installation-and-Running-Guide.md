@@ -1,5 +1,9 @@
 # Instructions on reproducing LLMs
 
+## Table of Contents
+
+## Initial Setup
+
 First of all, clone this repository:
 ``` bash
 git clone
