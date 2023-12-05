@@ -69,10 +69,8 @@ Provide sufficient instructions to reproduce and install your project.
 Provide _exact_ versions, test on CSIL or reference workstations.
 
 ```bash
-git clone $GROUP-22
-cd $GROUP-22
-conda env create -f requirements.yml
-conda activate amazing
+git clone https://github.com/Fredopayn1119/GROUP-22.git
+cd GROUP-22
 ```
 
 <a name="repro"></a>
