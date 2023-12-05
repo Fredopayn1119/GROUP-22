@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Initial Setup](#initial setup)
+1. [Initial Setup](#initialsetup)
 
 2. [BioGPT](#biogpt)
 
