@@ -52,7 +52,7 @@ repository
 ├── llm-files/                   ## code from minimal example above: to run text generation with a prompt using BioGPT
     ├── bioMedCLIP.py            ## code for BioMedCLIP LLM
     ├── BioMedLM.py              ## code for BioMedLM LLM
-    ├── bioGPT.py                ##code for bioGPT LLM
+    ├── biogpt.py                ##code for bioGPT LLM
     ├── gptneo.py                ##code for gptneo LLM
     ├── meditron.py              ##code for meditron LLM
     ├── openlm-test.py           ##code for openlm-test LLM
