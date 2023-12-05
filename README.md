@@ -6,7 +6,7 @@ Add a 1-2 line summary of your project here.
 
 ## Important Links
 
-| [Timesheet](https://google.com) | [Slack channel](https://google.com) | [Project report](https://google.com) |
+| [Timesheet](https://google.com) | [Slack channel](https://google.com) | [Project report](https://www.overleaf.com/project/650ca3406716f07f3579dc3e) |
 |-----------|---------------|-------------------------|
 
 
@@ -69,10 +69,8 @@ Provide sufficient instructions to reproduce and install your project.
 Provide _exact_ versions, test on CSIL or reference workstations.
 
 ```bash
-git clone $GROUP-22
-cd $GROUP-22
-conda env create -f requirements.yml
-conda activate amazing
+git clone https://github.com/Fredopayn1119/GROUP-22.git
+cd GROUP-22
 ```
 
 <a name="repro"></a>
