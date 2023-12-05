@@ -15,7 +15,7 @@ Before jumping into any of the LLMs, ensure that the Python extension for Visual
 
 Next, clone the repository:
 ``` bash
-git clone
+git clone https://github.com/Fredopayn1119/GROUP-22.git
 cd GROUP-22
 ```
 
