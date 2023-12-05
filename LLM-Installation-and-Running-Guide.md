@@ -16,7 +16,7 @@ Before jumping into any of the LLMs, ensure that the Python extension for Visual
 </p>
 
 ## BioGPT
-<bold>Installation</bold>
+### Installation
 First, pip (a package manager) must be installed:
 
 ``` bash
@@ -29,6 +29,7 @@ Then install the transformers library, which includes some of the APIs that will
 pip install transformers
 ```
 
+### Running
 Now, the code for BioGPT is ready to be executed!
 
 ``` bash
@@ -36,10 +37,12 @@ python biogpt.py
 ```
 
 
-###Running
-
 ## LLM2
-...
+### Installation
+### Running
 
 ## LLM3
-...
+### Installation
+### Running
+
+
