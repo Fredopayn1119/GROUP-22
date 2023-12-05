@@ -2,7 +2,7 @@
 This repository is a template for your CMPT 340 course project.
 Replace the title with your project title, and **add a snappy acronym that people remember (mnemonic)**.
 
-Add a 1-2 line summary of your project here.
+This project focuses on the testing of multiple biomedical LLMs, with an aim of reproducing the results promised by their respective sources.
 
 ## Important Links
 
@@ -49,7 +49,14 @@ print("------------------")
 
 ```bash
 repository
-├── llm-files                    ## code from minimal example above: to run text generation with a prompt using BioGPT
+├── llm-files/                   ## code from minimal example above: to run text generation with a prompt using BioGPT
+    ├── bioMedCLIP.py            ## code for BioMedCLIP LLM
+    ├── BioMedLM.py              ## code for BioMedLM LLM
+    ├── bioGPT.py                ##code for bioGPT LLM
+    ├── gptneo.py                ##code for gptneo LLM
+    ├── meditron.py              ##code for meditron LLM
+    ├── openlm-test.py           ##code for openlm-test LLM
+    ├── spacy-llm.py             ##code for spacy-llm LLM
 ├── .py                          ## scripts, if needed
 ├── docs                         ## If needed, documentation   
 ├── README.md                    ## You are here
@@ -73,14 +80,10 @@ cd GROUP-22
 ## 3. Reproduction
 Demonstrate how your work can be reproduced, e.g. the results in your report.
 ```bash
-mkdir tmp && cd tmp
-wget https://yourstorageisourbusiness.com/dataset.zip
-unzip dataset.zip
-conda activate amazing
-python evaluate.py --epochs=10 --data=/in/put/dir
+cd llm-files
+python biogpt.py
 ```
-Data can be found at ...
-Output will be saved in ...
+Output will be printed in the terminal.
 
 <a name="guide"></a>
 ## 4. Guidance
