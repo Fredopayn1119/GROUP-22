@@ -15,15 +15,15 @@ Before jumping into any of the LLMs, ensure that the Python extension for Visual
   <img src="images/Python-Extension.png" width=500 alt="accessibility text">
 </p>
 
-## BioGPT
-### Installation
-First, pip (a package manager) must be installed:
+Finally, pip (a package manager) must be installed:
 
 ``` bash
 python -m ensurepip --upgrade
 ```
 
-Then install the transformers library, which includes some of the APIs that will be used in the main code.
+## BioGPT
+### Installation
+Install the transformers library, which includes some of the APIs that will be used in the code:
 
 ``` bash
 pip install transformers
@@ -35,6 +35,7 @@ Now, the code for BioGPT is ready to be executed!
 ``` bash
 python biogpt.py
 ```
+An output containing the LLM's response to the prompt (the prompt being the first argument in the 'generator' function), should be printed in the terminal.
 
 
 ## LLM2
