@@ -21,9 +21,6 @@ Record a short video (1:40 - 2 minutes maximum) or gif or a simple screen record
 
 3. [Reproducing this project](#repro)
 
-4. [Guidance](#guide)
-
-
 <a name="demo"></a>
 ## 1. Example demo
 
@@ -57,8 +54,7 @@ repository
     ├── gptneo-text-generation.py     ##code for text generation gptneo LLM
     ├── gptneo-question-answering.py  ##code for question answering gptneo LLM
     ├── meditron.py                   ##code for meditron LLM
-    ├── openlm-test.py                ##code for openlm-test LLM
-    ├── spacy-llm.py                  ##code for spacy-llm LLM
+    ├── pubmedbert.py                 ##code for pubmedbert LLM
 ├── .py                               ## scripts, if needed
 ├── docs                              ## If needed, documentation   
 ├── README.md                         ## You are here
@@ -86,17 +82,3 @@ cd llm-files
 python biogpt-text-generation.py
 ```
 Output will be printed in the terminal.
-
-<a name="guide"></a>
-## 4. Guidance
-
-- Use [git](https://git-scm.com/book/en/v2)
-    - Do NOT use history re-editing (rebase)
-    - Commit messages should be informative:
-        - No: 'this should fix it', 'bump' commit messages
-        - Yes: 'Resolve invalid API call in updating X'
-    - Do NOT include IDE folders (.idea), or hidden files. Update your .gitignore where needed.
-    - Do NOT use the repository to upload data
-- Use [VSCode](https://code.visualstudio.com/) or a similarly powerful IDE
-- Use [Copilot for free](https://dev.to/twizelissa/how-to-enable-github-copilot-for-free-as-student-4kal)
-- Sign up for [GitHub Education](https://education.github.com/) 
