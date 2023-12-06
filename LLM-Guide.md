@@ -43,10 +43,19 @@ pip install transformers
 
 ### Running
 Now, the code for BioGPT is ready to be executed!
+For text generation:
 
 ``` bash
 cd llm-files
-python biogpt.py
+python biogpt-text-generation.py
+```
+An output containing the LLM's response to the prompt (the prompt being the first argument in the 'generator' function), should be printed in the terminal.
+
+For question answering:
+
+``` bash
+cd llm-files
+python biogpt-question-answering.py
 ```
 An output containing the LLM's response to the prompt (the prompt being the first argument in the 'generator' function), should be printed in the terminal.
 
@@ -60,13 +69,21 @@ pip install transformers
 ```
 
 ### Running
-Now, the code for BioGPT is ready to be executed!
+Now, the code for GPTNeo is ready to be executed!
+For text generation:
 
 ``` bash
 cd llm-files
-python gptneo.py
+python gptneo-text-generation.py
 ```
 An output containing the LLM's response to the prompt (the prompt being the first argument in the 'generator' function), should be printed in the terminal.
+
+For question answering:
+
+``` bash
+cd llm-files
+python gptneo-question-answering.py
+```
 
 ## LLM3
 ### Installation
