@@ -47,8 +47,6 @@ print("------------------")
 repository
 ├── images                            ## folder containing illustrative images used in the LLM-Guide.md file
 ├── llm-files/                        ## code from minimal example above: to run text generation with a prompt using BioGPT
-    ├── bioMedCLIP.py                 ## code for BioMedCLIP LLM
-    ├── BioMedLM.py                   ## code for BioMedLM LLM
     ├── biogpt-text-generation.py     ##code for text generation with bioGPT LLM
     ├── biogpt-question-answering.py  ##code for question answering with bioGPT LLM
     ├── gptneo-text-generation.py     ##code for text generation gptneo LLM
