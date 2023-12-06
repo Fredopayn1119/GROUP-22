@@ -107,14 +107,37 @@ python pubmedbert.py
 
 ## BioBERT
 ### Installation
+Clone BioBERT's repository, install transformers 3.0.0, and download required datasets.
+
 ``` bash
 git clone https://github.com/dmis-lab/biobert-pytorch.git
 cd biobert-pytorch
 pip install transformers==3.0.0
 ./download.sh
 ```
+
+The error mentioned in the report occurs after having run the transformers installation line.
+
 ### Running
 N/A - was not able to install (refer to problem description in report)
+
+
+## BiomedGPT
+### Installation
+Clone BioBERT's repository, create a conda environment, install pip 21.2.4, and install fairseq.
+``` bash
+git clone https://github.com/taokz/BiomedGPT
+conda env create -f biomedgpt.yml
+python -m pip install pip==21.2.4
+pip install fairseq
+```
+
+Error mentioned in report occurs when last line in run.
+
+
+### Running
+N/A - was not able to install (refer to problem description in report)
+
 
 ## Meditron
 ### Installation
