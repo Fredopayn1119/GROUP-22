@@ -49,19 +49,21 @@ print("------------------")
 
 ```bash
 repository
-├── llm-files/                   ## code from minimal example above: to run text generation with a prompt using BioGPT
-    ├── bioMedCLIP.py            ## code for BioMedCLIP LLM
-    ├── BioMedLM.py              ## code for BioMedLM LLM
-    ├── biogpt.py                ##code for bioGPT LLM
-    ├── gptneo.py                ##code for gptneo LLM
-    ├── meditron.py              ##code for meditron LLM
-    ├── openlm-test.py           ##code for openlm-test LLM
-    ├── spacy-llm.py             ##code for spacy-llm LLM
-├── .py                          ## scripts, if needed
-├── docs                         ## If needed, documentation   
-├── README.md                    ## You are here
-├── LLM-Guide.md                 ## md file containing installation and running instructions for each LLM
-├── requirements.yml             ## If you use conda
+├── llm-files/                        ## code from minimal example above: to run text generation with a prompt using BioGPT
+    ├── bioMedCLIP.py                 ## code for BioMedCLIP LLM
+    ├── BioMedLM.py                   ## code for BioMedLM LLM
+    ├── biogpt-text-generation.py     ##code for text generation with bioGPT LLM
+    ├── biogpt-question-answering.py  ##code for question answering with bioGPT LLM
+    ├── gptneo-text-generation.py     ##code for text generation gptneo LLM
+    ├── gptneo-question-answering.py  ##code for question answering gptneo LLM
+    ├── meditron.py                   ##code for meditron LLM
+    ├── openlm-test.py                ##code for openlm-test LLM
+    ├── spacy-llm.py                  ##code for spacy-llm LLM
+├── .py                               ## scripts, if needed
+├── docs                              ## If needed, documentation   
+├── README.md                         ## You are here
+├── LLM-Guide.md                      ## md file containing installation and running instructions for each LLM
+├── requirements.yml                  ## If you use conda
 ```
 
 <a name="installation"></a>
