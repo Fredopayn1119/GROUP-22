@@ -1,4 +1,4 @@
-# Instructions on reproducing LLMs
+# Instructions on reproducing LLM results
 
 ## Table of Contents
 
