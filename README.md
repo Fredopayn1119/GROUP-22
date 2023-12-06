@@ -48,6 +48,7 @@ print("------------------")
 
 ```bash
 repository
+├── images                            ## folder containing illustrative images used in the LLM-Guide.md file
 ├── llm-files/                        ## code from minimal example above: to run text generation with a prompt using BioGPT
     ├── bioMedCLIP.py                 ## code for BioMedCLIP LLM
     ├── BioMedLM.py                   ## code for BioMedLM LLM
