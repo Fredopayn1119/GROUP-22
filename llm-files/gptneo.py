@@ -2,7 +2,6 @@
 
 from transformers import pipeline
 
-# Example usage
 generator = pipeline('text-generation', model='EleutherAI/gpt-neo-2.7B')
 output = generator("COVID-19 is", max_length=100, num_beams=5)
 print(output)
