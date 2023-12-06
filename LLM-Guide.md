@@ -89,6 +89,33 @@ python gptneo-question-answering.py
 ### Installation
 ### Running
 
+## PubMedBERT
+## GPTNeo
+### Installation
+Install the transformers library, which includes some of the APIs that will be used in the code:
+
+``` bash
+pip install transformers
+```
+
+### Running
+Now, the code for GPTNeo is ready to be executed!
+
+``` bash
+cd llm-files
+python pubmedbert.py
+```
+
+## BioBERT
+### Installation
+``` bash
+git clone https://github.com/dmis-lab/biobert-pytorch.git
+cd biobert-pytorch
+pip install transformers==3.0.0
+./download.sh
+```
+### Running
+N/A - was not able to install (refer to problem description in report)
 
 ## Meditron
 ### Installation
