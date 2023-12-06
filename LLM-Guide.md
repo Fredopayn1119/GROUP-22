@@ -90,7 +90,6 @@ python gptneo-question-answering.py
 ### Running
 
 ## PubMedBERT
-## GPTNeo
 ### Installation
 Install the transformers library, which includes some of the APIs that will be used in the code:
 
