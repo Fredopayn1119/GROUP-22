@@ -87,7 +87,15 @@ python gptneo-question-answering.py
 
 ## BioMedLM
 ### Installation
+The model is hosted on HuggingFace.co which has a built-in space to deploy the model.
 ### Running
+A gradio app can be built within HuggingFace using the following code: 
+
+``` bash
+import gradio as gr
+
+gr.load("models/stanford-crfm/BioMedLM").launch()
+```
 
 ## PubMedBERT
 ### Installation
