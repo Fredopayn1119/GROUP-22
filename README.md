@@ -46,6 +46,8 @@ print("------------------")
 
 ### What to find where
 
+*Note: the biobert-pytorch folder can be ignored
+
 ```bash
 repository
 ├── images                            ## folder containing illustrative images used in the LLM-Guide.md file
