@@ -83,7 +83,7 @@ cd GROUP-22
 Demonstrate how your work can be reproduced, e.g. the results in your report.
 ```bash
 cd llm-files
-python biogpt.py
+python biogpt-text-generation.py
 ```
 Output will be printed in the terminal.
 
