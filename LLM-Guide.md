@@ -85,8 +85,27 @@ cd llm-files
 python gptneo-question-answering.py
 ```
 
-## LLM3
+## BioMedLM
 ### Installation
 ### Running
+
+
+## Meditron
+### Installation
+Install the transformers library, which includes some of the APIs that will be used in the code:
+
+``` bash
+pip install transformers
+```
+
+### Running
+Now, the code for Meditron is ready to be executed!
+
+``` bash
+cd llm-files
+python meditron.py
+```
+An output containing the LLM's response to the prompt (the prompt being the first argument in the 'generator' function), should be printed in the terminal (if the device this code is executed on has enough storage space).
+
 
 
