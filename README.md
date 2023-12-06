@@ -1,4 +1,4 @@
-# SFU CMPT 340 Project Template -- Replace with project title
+# Investigating the Capabilities of Domain-Specific Biomedical Models
 This repository is a template for your CMPT 340 course project.
 Replace the title with your project title, and **add a snappy acronym that people remember (mnemonic)**.
 
