@@ -1,6 +1,5 @@
 # Investigating the Capabilities of Domain-Specific Biomedical Models
-This repository is a template for your CMPT 340 course project.
-Replace the title with your project title, and **add a snappy acronym that people remember (mnemonic)**.
+(**ICDSBM**)
 
 This project focuses on the testing of multiple biomedical LLMs, with an aim of reproducing the results promised by their respective sources.
 
