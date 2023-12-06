@@ -164,5 +164,15 @@ python meditron.py
 ```
 An output containing the LLM's response to the prompt (the prompt being the first argument in the 'generator' function), should be printed in the terminal (if the device this code is executed on has enough storage space).
 
+## Med-paLM
+### Installation
+To install the medpalm package
+
+``` bash
+pip install medpalm
+```
+Running this line caused the error described in the report.
+
+### Running
 
 
